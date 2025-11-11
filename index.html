@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Unsplash Search • XHR | Fetch | Async/Await</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Unsplash Search</h1>
+    <div class="method-switch">
+      <label><input type="radio" name="method" value="xhr" checked> XHR</label>
+      <label><input type="radio" name="method" value="fetch"> Fetch</label>
+      <label><input type="radio" name="method" value="async"> Async/Await</label>
+    </div>
+  </header>
+
+  <main class="shell">
+    <form id="search-form" class="searchbar" autocomplete="off">
+      <input id="query" type="text" placeholder="Search photos (press Enter)" aria-label="Search photos">
+      <select id="per-page" aria-label="Results per page">
+        <option value="12">12</option>
+        <option value="24">24</option>
+        <option value="36">36</option>
+      </select>
+      <button id="submit" type="submit">Search</button>
+      <button id="clear" type="button">Clear</button>
+    </form>
+
+    <section class="controls">
+      <div class="paging">
+        <button id="prev" disabled>Prev</button>
+        <span id="page-indicator">Page 1</span>
+        <button id="next" disabled>Next</button>
+      </div>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <footer class="footer">
+    <p>Powered by Unsplash</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
