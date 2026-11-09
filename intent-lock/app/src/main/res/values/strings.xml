@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">IntentLock</string>
+
+    <string name="accessibility_label">IntentLock app guard</string>
+    <string name="accessibility_description">Lets IntentLock notice when you open a guarded app (TikTok, Instagram, X) so it can show the pause screen. It only reads which app is in the foreground. It never reads your messages or screen content.</string>
+
+    <!-- Lock overlay -->
+    <string name="lock_title">%1$s is paused</string>
+    <string name="lock_subtitle">Breathe. If you leave, the timer starts over.</string>
+    <string name="lock_go_home">Close &amp; go home</string>
+
+    <!-- Dashboard -->
+    <string name="title">IntentLock</string>
+    <string name="intro">A forced pause before the apps that eat your time. Open one and a countdown blocks it; leave early and the countdown resets. The point is friction, not punishment.</string>
+    <string name="section_permissions">Permissions needed</string>
+    <string name="section_apps">Guarded apps</string>
+    <string name="section_off">Turning it off</string>
+
+    <string name="banner_active">Protection is ACTIVE</string>
+    <string name="banner_inactive">Protection is NOT fully set up</string>
+
+    <string name="status_overlay_on">Draw-over-apps: granted</string>
+    <string name="status_overlay_off">Draw-over-apps: needed to show the pause screen</string>
+    <string name="btn_overlay">Grant draw-over-apps</string>
+
+    <string name="status_accessibility_on">App detection: on</string>
+    <string name="status_accessibility_off">App detection: turn on IntentLock in Accessibility</string>
+    <string name="btn_accessibility">Open Accessibility settings</string>
+    <string name="hint_enable_accessibility">Find \"IntentLock app guard\" and switch it on.</string>
+
+    <string name="status_admin_on">Delete protection: on</string>
+    <string name="status_admin_off">Delete protection: off (optional, adds friction to uninstall)</string>
+    <string name="btn_admin">Turn on delete protection</string>
+    <string name="admin_already_on">Delete protection is already on.</string>
+    <string name="admin_explanation">IntentLock asks to be a device admin so it can\'t be uninstalled on impulse. You can always remove it from this screen after the cooldown.</string>
+    <string name="admin_enabled_toast">Delete protection enabled</string>
+    <string name="admin_disable_warning">Turning this off removes the friction that stops impulsive deletes. Sure?</string>
+
+    <!-- Disable flow -->
+    <string name="disable_button">Turn protection off…</string>
+    <string name="disable_pending">Turn-off pending — tap to check</string>
+    <string name="disable_reenable">Protection is off — tap to re-enable</string>
+    <string name="disable_title">Turn protection off?</string>
+    <string name="disable_explain">This does not delete the app — it lifts the pauses. To make sure it\'s a real decision and not an urge, there is a 24-hour wait. Tap again after 24 hours to finish.</string>
+    <string name="disable_start">Start the 24-hour wait</string>
+    <string name="disable_pending_toast">Turn-off already requested.</string>
+    <string name="disable_wait">Still cooling down. About %1$s left.</string>
+    <string name="disable_done">Protection turned off. Admin removed.</string>
+    <string name="cancel">Cancel</string>
+</resources>

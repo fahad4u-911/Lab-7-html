@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary">#5B49F2</color>
+    <color name="primary_dark">#3A2CC4</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ok">#2E7D32</color>
+    <color name="warn">#C25E00</color>
+    <color name="overlay_bg">#F20E0B1F</color>
+    <color name="overlay_accent">#8B7CFF</color>
+    <color name="ic_launcher_background">#5B49F2</color>
+</resources>
